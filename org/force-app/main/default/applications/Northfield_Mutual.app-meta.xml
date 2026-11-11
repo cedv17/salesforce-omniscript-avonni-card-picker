@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Fictional Northfield Mutual tutorial.</description>
+    <formFactors>Large</formFactors>
+    <label>Northfield Mutual</label>
+    <navType>Standard</navType>
+    <tabs>Northfield_Advanced_Selection</tabs>
+    <uiType>Lightning</uiType>
+</CustomApplication>

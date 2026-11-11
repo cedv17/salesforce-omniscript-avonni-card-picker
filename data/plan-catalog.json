@@ -1,0 +1,57 @@
+{
+  "applicant": {"ownerOccupied": true, "yearBuilt": 1996},
+  "products": [
+    {
+      "productId": "home-basic",
+      "name": "Home Basic",
+      "rateGrids": [
+        {
+          "active": true,
+          "rules": [
+            {
+              "ruleKey": "condo",
+              "label": "Condo",
+              "basePrice": 1240,
+              "currency": "USD",
+              "description": "Coverage for your condo, belongings and personal liability.",
+              "requirements": {"ownerOccupied": true, "builtAfter": 1980}
+            },
+            {
+              "ruleKey": "house",
+              "label": "House",
+              "basePrice": 1680,
+              "currency": "USD",
+              "description": "Essential protection for your home and everyday belongings.",
+              "requirements": {"ownerOccupied": true, "builtAfter": 1980}
+            }
+          ]
+        },
+        {"active": false, "rules": [{"ruleKey": "retired", "basePrice": 950}]}
+      ]
+    },
+    {
+      "productId": "home-plus",
+      "name": "Home Plus",
+      "rateGrids": [{"active": true, "rules": [{
+        "ruleKey": "new-home",
+        "label": "New Home",
+        "basePrice": 1920,
+        "currency": "USD",
+        "description": "Extended cover for recently built owner-occupied homes.",
+        "requirements": {"ownerOccupied": true, "builtAfter": 2010}
+      }]}]
+    },
+    {
+      "productId": "rental-cover",
+      "name": "Rental Cover",
+      "rateGrids": [{"active": true, "rules": [{
+        "ruleKey": "landlord",
+        "label": "Landlord",
+        "basePrice": 1480,
+        "currency": "USD",
+        "description": "Property and liability cover for a tenant-occupied rental.",
+        "requirements": {"ownerOccupied": false, "builtAfter": 1980}
+      }]}]
+    }
+  ]
+}

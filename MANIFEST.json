@@ -1,0 +1,185 @@
+{
+  "format": 1,
+  "files": [
+    {
+      "path": "BUILD-PROMPT.md",
+      "bytes": 3974,
+      "sha256": "239430bc5f01ca6be3ee83217251bcf46c34d684df640a6035da6f6d2edde79e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5204,
+      "sha256": "668e3c3c338a0d6061e969dcf10e08686fd9992d45cbdb3c4807b8075a436a21"
+    },
+    {
+      "path": "ai-component/force-app/main/default/flexipages/Northfield_AI_Selection.flexipage-meta.xml",
+      "bytes": 812,
+      "sha256": "fcfdc92a1a9ef177e0aca2472d4d43f29325d10809b068cc0de8c76ed93c3c65"
+    },
+    {
+      "path": "ai-component/force-app/main/default/lwc/northfieldPlanPickerAi/northfieldPlanPickerAi.css",
+      "bytes": 410,
+      "sha256": "efb61c32de20d8f1521f32483ea6be86325ea12b0094cbb1dcef88647d2853e0"
+    },
+    {
+      "path": "ai-component/force-app/main/default/lwc/northfieldPlanPickerAi/northfieldPlanPickerAi.html",
+      "bytes": 1209,
+      "sha256": "4df779de843cd2e2ab8a4385059734a9a7b68f842db995bce05d9918711d70d4"
+    },
+    {
+      "path": "ai-component/force-app/main/default/lwc/northfieldPlanPickerAi/northfieldPlanPickerAi.js",
+      "bytes": 10903,
+      "sha256": "2cc6804795432ad0667d999dd883d0882d93142877e478fb3f5b4aeb005d79c0"
+    },
+    {
+      "path": "ai-component/force-app/main/default/lwc/northfieldPlanPickerAi/northfieldPlanPickerAi.js-meta.xml",
+      "bytes": 378,
+      "sha256": "7d837a2547bbe69d52010d9b667a930ba756c8f540dbb92a834d7d8d6197fa6c"
+    },
+    {
+      "path": "ai-component/force-app/main/default/omniIntegrationProcedures/Northfield_PlanCatalogLive_English_1.oip-meta.xml",
+      "bytes": 3253,
+      "sha256": "ebdf14301e7545be4c78960cb6abba86d32c8824db70ad71e0b1bbe7d25a00b1"
+    },
+    {
+      "path": "ai-component/force-app/main/default/omniIntegrationProcedures/Northfield_ValidateSelection_English_1.oip-meta.xml",
+      "bytes": 6169,
+      "sha256": "6b8fbfaf8675775f3476215b712c724853e5a3e66cbe5aafe7ff3b079f2538d7"
+    },
+    {
+      "path": "ai-component/force-app/main/default/omniScripts/Northfield_CardPickerAi_English_1.os-meta.xml",
+      "bytes": 8548,
+      "sha256": "0b9132034deebdb531aba007dbdc84efb0db7366dcbd0fb4db1c7a8e63d292b7"
+    },
+    {
+      "path": "ai-component/force-app/main/default/permissionsets/Northfield_AI_Tutorial.permissionset-meta.xml",
+      "bytes": 383,
+      "sha256": "feec1d2e9b475154b6451f3190a00cccb6c6c0054052ad9ed0e12df465551981"
+    },
+    {
+      "path": "ai-component/force-app/main/default/tabs/Northfield_AI_Selection.tab-meta.xml",
+      "bytes": 226,
+      "sha256": "3c4bfcde688ae21d4b0be990d2f4ba1fd88203e44431441473ac1646979035f3"
+    },
+    {
+      "path": "ai-component/sfdx-project.json",
+      "bytes": 99,
+      "sha256": "5712e66309f5273a8e6984b483220573e123574443cbb840d17840a295cae36f"
+    },
+    {
+      "path": "component/force-app/main/default/lwc/northfieldPlanPicker/northfieldPlanPicker.css",
+      "bytes": 473,
+      "sha256": "3f0336e30eb7d94d976b1247cb1b572d7917fbe83fdde36dfce97132d660a46b"
+    },
+    {
+      "path": "component/force-app/main/default/lwc/northfieldPlanPicker/northfieldPlanPicker.html",
+      "bytes": 1194,
+      "sha256": "af56895d1b101592303cde9d2784bb59016b7c8d960375ff831b20c2c42844c1"
+    },
+    {
+      "path": "component/force-app/main/default/lwc/northfieldPlanPicker/northfieldPlanPicker.js",
+      "bytes": 3326,
+      "sha256": "56d5fb4ba6b6c569d22c0b204017fc9421139bf61e988266e951d8fe3dc296ff"
+    },
+    {
+      "path": "component/force-app/main/default/lwc/northfieldPlanPicker/northfieldPlanPicker.js-meta.xml",
+      "bytes": 351,
+      "sha256": "0857ecf11a61246ba52d7911db8724e59c72cbe575b098e517a5bb0e70989b2e"
+    },
+    {
+      "path": "component/force-app/main/default/lwc/northfieldPlanPicker/planOptions.js",
+      "bytes": 4075,
+      "sha256": "1183bd33b328e1582a9cfb02531157ae523ab5f1004baf708dee82d985d3e29b"
+    },
+    {
+      "path": "component/sfdx-project.json",
+      "bytes": 99,
+      "sha256": "5712e66309f5273a8e6984b483220573e123574443cbb840d17840a295cae36f"
+    },
+    {
+      "path": "data/native-validation-config.json",
+      "bytes": 543,
+      "sha256": "b57da29ba1d618074e6865e037e5bce43f2753baaccdb5216ca5c2d86ef09c62"
+    },
+    {
+      "path": "data/plan-catalog.json",
+      "bytes": 1799,
+      "sha256": "fd195d59769c0cf539ab467e490418ebf244a4489f2ef383b84c10fc6a5bb86c"
+    },
+    {
+      "path": "org/config/project-scratch-def.json",
+      "bytes": 212,
+      "sha256": "54ff13513e55ed33ff78aa4ecf23be6692d62b77801695fed7b111438b5444d4"
+    },
+    {
+      "path": "org/force-app/main/default/applications/Northfield_Mutual.app-meta.xml",
+      "bytes": 381,
+      "sha256": "698b55cb1cad8c026554f5e420e54386f852f9026ea2ff4eb5b9c7b58b5b2d91"
+    },
+    {
+      "path": "org/force-app/main/default/flexipages/Northfield_Advanced_Selection.flexipage-meta.xml",
+      "bytes": 817,
+      "sha256": "ffb0f7e567600b2caec35a6928eca6640fac15a2d165e936463bb83fc5e1360a"
+    },
+    {
+      "path": "org/force-app/main/default/omniIntegrationProcedures/Northfield_PlanCatalogLive_English_1.oip-meta.xml",
+      "bytes": 3253,
+      "sha256": "ebdf14301e7545be4c78960cb6abba86d32c8824db70ad71e0b1bbe7d25a00b1"
+    },
+    {
+      "path": "org/force-app/main/default/omniIntegrationProcedures/Northfield_ValidateSelection_English_1.oip-meta.xml",
+      "bytes": 6169,
+      "sha256": "6b8fbfaf8675775f3476215b712c724853e5a3e66cbe5aafe7ff3b079f2538d7"
+    },
+    {
+      "path": "org/force-app/main/default/omniScripts/Northfield_CardPickerFinal_English.os-meta.xml",
+      "bytes": 8553,
+      "sha256": "57b1e61d69f604830ce3d6a7eb5f2e580264e5f7d6e8b62b0337b928ed8e5f5d"
+    },
+    {
+      "path": "org/force-app/main/default/permissionsets/Northfield_Tutorial.permissionset-meta.xml",
+      "bytes": 386,
+      "sha256": "5b033d47593686738d913316ebac0fa4111cc744a96e42dfe20a9edeb5e37f07"
+    },
+    {
+      "path": "org/force-app/main/default/tabs/Northfield_Advanced_Selection.tab-meta.xml",
+      "bytes": 234,
+      "sha256": "5c5932966cb82c664f37f08d02cad44b8d180d2308da1ddf4321eb7bd3764fe7"
+    },
+    {
+      "path": "org/sfdx-project.json",
+      "bytes": 99,
+      "sha256": "5712e66309f5273a8e6984b483220573e123574443cbb840d17840a295cae36f"
+    },
+    {
+      "path": "package.json",
+      "bytes": 211,
+      "sha256": "6eed8037bd17e4e6324fc501803c179d6163f793b3ad75ff7044c645583b53ee"
+    },
+    {
+      "path": "scripts/generate_advanced.py",
+      "bytes": 5509,
+      "sha256": "9464f70b7194033dcaedbea22b7d7e9e54875ae33047b8f005c6289794ee95c2"
+    },
+    {
+      "path": "scripts/generate_validation.py",
+      "bytes": 4247,
+      "sha256": "4d426e202e846dd232b670dcfd3a884e9665ae4873d375143b8f1b69565ffa80"
+    },
+    {
+      "path": "scripts/omni_metadata.py",
+      "bytes": 1688,
+      "sha256": "d56278b89ca5939d66621c7697cbad6ac4d2c8beb2dd03377e42923ed9a8da20"
+    },
+    {
+      "path": "tests/planOptions.test.mjs",
+      "bytes": 4033,
+      "sha256": "9a62baa546346725597c7f43f9d2e4defdb2b5ca08ac801640d8ca9270f5d522"
+    },
+    {
+      "path": "tests/validate_ip.py",
+      "bytes": 3202,
+      "sha256": "53623f96361697ae9877b8d29a71c8f78eb9e92b1ec75107392bba522ed23f70"
+    }
+  ]
+}

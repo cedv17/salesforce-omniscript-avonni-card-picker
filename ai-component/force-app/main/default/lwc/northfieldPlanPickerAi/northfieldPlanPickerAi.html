@@ -1,0 +1,35 @@
+<template>
+    <div class="northfield-picker">
+        <avonni-choice-set
+            class="northfield-picker__filter"
+            label="Show plans"
+            name="northfieldPlanFilter"
+            type="button"
+            orientation="horizontal"
+            options={filterOptions}
+            value={filter}
+            onchange={handleFilterChange}
+        ></avonni-choice-set>
+
+        <template lwc:if={notice}>
+            <div class="slds-notify slds-notify_alert slds-alert_warning northfield-picker__notice" role="status">
+                <h2>{notice}</h2>
+            </div>
+        </template>
+
+        <template lwc:if={hasVisibleOffers}>
+            <avonni-visual-picker
+                name="northfieldPlan"
+                label="Available plans"
+                items={pickerItems}
+                value={pickerValue}
+                column-attributes={columnAttributes}
+                size="responsive"
+                onchange={handleSelectionChange}
+            ></avonni-visual-picker>
+        </template>
+        <template lwc:else>
+            <p class="slds-text-color_weak northfield-picker__empty" role="status">{emptyMessage}</p>
+        </template>
+    </div>
+</template>

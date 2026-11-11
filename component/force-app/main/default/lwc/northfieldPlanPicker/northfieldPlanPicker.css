@@ -1,0 +1,10 @@
+avonni-visual-picker {
+    --avonni-visual-picker-title-alignment: left;
+    --avonni-visual-picker-description-alignment: left;
+    --avonni-visual-picker-description-font-size: 0.875rem;
+    --avonni-visual-picker-description-line-clamp: 4;
+    --avonni-visual-picker-tags-alignment: left;
+    --avonni-visual-picker-radius-border: 0.75rem;
+    --avonni-visual-picker-responsive-sizing-min-height: 18rem;
+    --avonni-visual-picker-responsive-sizing-max-height: 24rem;
+}

@@ -1,0 +1,13 @@
+.northfield-picker__filter,
+.northfield-picker__notice,
+.northfield-picker__empty {
+    display: block;
+    margin-bottom: 0.75rem;
+}
+
+/* Only styling hooks returned by the Avonni MCP for avonni-visual-picker. */
+avonni-visual-picker {
+    --avonni-visual-picker-responsive-sizing-min-height: 13rem;
+    --avonni-visual-picker-title-font-size: 1.125rem;
+    --avonni-visual-picker-description-line-clamp: 3;
+}

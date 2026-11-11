@@ -1,0 +1,11 @@
+{
+  "name": "northfield-omniscript-card-picker-companion",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test tests/planOptions.test.mjs"
+  }
+}

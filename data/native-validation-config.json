@@ -1,0 +1,33 @@
+{
+  "controlWidth": 12,
+  "label": "Messaging1",
+  "validateExpression": {
+    "group": {
+      "operator": "AND",
+      "rules": [
+        {
+          "data": "true",
+          "condition": "=",
+          "field": "ownerOccupied"
+        }
+      ]
+    }
+  },
+  "messages": [
+    {
+      "value": true,
+      "type": "Success",
+      "text": "",
+      "active": true
+    },
+    {
+      "value": false,
+      "type": "Requirement",
+      "text": "",
+      "active": true
+    }
+  ],
+  "hideLabel": true,
+  "show": null,
+  "HTMLTemplateId": ""
+}

@@ -1,0 +1,6 @@
+{
+  "orgName": "Northfield Mutual Tutorial",
+  "edition": "Developer",
+  "features": ["OmniStudioDesigner", "OmniStudioRuntime"],
+  "settings": {"lightningExperienceSettings": {"enableS1DesktopEnabled": true}}
+}

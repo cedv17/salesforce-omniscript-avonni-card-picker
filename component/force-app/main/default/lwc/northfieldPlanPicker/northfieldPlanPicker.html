@@ -1,0 +1,32 @@
+<template>
+    <lightning-radio-group
+        name="planFilter"
+        label="Show plans"
+        options={filterOptions}
+        value={filter}
+        type="button"
+        onchange={handleFilterChange}>
+    </lightning-radio-group>
+    <p class="slds-m-vertical_small">{planCount} plans shown. Prices are annual amounts in USD.</p>
+    <template lwc:if={notice}>
+        <p role="status" class="slds-m-bottom_medium">{notice}</p>
+    </template>
+    <template lwc:if={noPlans}>
+        <p class="slds-m-bottom_medium">No plans qualify for these property details. Choose All to see the requirements, or go back to update your answers.</p>
+    </template>
+    <template lwc:if={error}>
+        <p role="alert" class="slds-text-color_error slds-m-bottom_medium">{error}</p>
+    </template>
+    <avonni-visual-picker
+        name="planSelection"
+        label="Choose a plan"
+        items={items}
+        value={value}
+        size="responsive"
+        column-attributes={columns}
+        field-attributes={fieldAttributes}
+        required
+        message-when-value-missing="Choose a plan before continuing."
+        onchange={handleSelectionChange}>
+    </avonni-visual-picker>
+</template>
